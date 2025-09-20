@@ -1,7 +1,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Cuoi len di</title>
+        <title>Happy Birthday</title>
         <link rel="Shortcut Icon" href="https://i.pinimg.com/236x/a5/20/de/a520deb545fea9b62776e6bea5d77928.jpg" type="image/x-icon" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
@@ -52,7 +52,7 @@
                 margin: 0 auto;
                 margin-top: 20px;
                 margin-bottom: 20px;
-                transition: all 2.0s;
+                transition: all 1.0s;
             }
             #logo:hover {
                 box-shadow: 0 0 10px #fff;
@@ -109,7 +109,7 @@
         window.addEventListener('resize', resizeCanvas);
 
         const letters = 'I LOVE U'.split('');
-        const fontSize = 16;
+        const fontSize = 12;
         let columns = Math.floor(window.innerWidth / fontSize);
         const drops = Array(columns).fill(1);
 
@@ -126,14 +126,14 @@
             }
         }
 
-        setInterval(drawRainBackground, 60);
+        setInterval(drawRainBackground, 40);
     </script>
     <script>
         var S = {
             init: function () {
                 S.Drawing.init('.canvas');
                 document.body.classList.add('body--ready');
-                S.UI.simulate("|#countdown 3|Happy|Birthday|🎂|Chúc|Cậu luôn|Vui vẻ|Hạnh phúc,|Yêu đời|Lạc quan,|May mắn|cuộc sống,|Xinh đẹp|hơn nữa|Với cả|Đừng |nghĩ nhiều|Chúc con cua|Luôn |Thành Công|Vui vẻ|Rạng ngời|Hơn|Hơn|quá khứ|Chúc tất cả|Trừ vất vả|🦀|❤|#time|❤️");
+                S.UI.simulate("|#countdown 3|Happy|Birthday|Hà Vy|22-09|🎂|Chúc|bé luôn|Vui vẻ|Hạnh phúc,|Yêu đời|Lạc quan,|May mắn|cuộc sống,|Xinh đẹp|hơn nữa|Với cả|Đừng |nghĩ nhiều|Chúc con cua|Luôn |Thành Công|Vui vẻ|Rạng ngời|Hơn|Hơn|quá khứ|Chúc tất cả|Trừ vất vả|🦀|#time|LÊU LÊU");
                 S.Drawing.loop(function () {
                     S.Shape.render();
                 });
@@ -189,7 +189,7 @@
             var interval,
                 currentAction,
                 time,
-                maxShapeSize = 30,
+                maxShapeSize = 80,
                 sequence = [],
                 cmd = '#';
             function formatTime(date) {
